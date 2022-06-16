@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint": "lint-staged",
+    "lint:check": "eslint .",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -13,14 +14,21 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/developer-plus/starter-repo/issues"
   },
   "homepage": "https://github.com/developer-plus/starter-repo#readme",
+  "lint-staged": {
+    "*.{vue,js,jsx,ts,tsx}": "eslint --fix"
+  },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
     "@developer-plus/eslint-config": "^0.1.1",
     "eslint": "^8.17.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.1",
     "typescript": "^4.7.3"
   }
 }
