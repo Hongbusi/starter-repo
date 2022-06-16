@@ -1,24 +1,11 @@
 {
-  "name": "starter-repo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "packageManager": "pnpm@7.1.6",
   "scripts": {
     "lint": "lint-staged",
     "lint:check": "eslint .",
     "prepare": "husky install"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/developer-plus/starter-repo.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/developer-plus/starter-repo/issues"
-  },
-  "homepage": "https://github.com/developer-plus/starter-repo#readme",
   "lint-staged": {
     "*.{vue,js,jsx,ts,tsx}": "eslint --fix"
   },
