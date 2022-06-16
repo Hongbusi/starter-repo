@@ -6,9 +6,6 @@
     "lint:check": "eslint .",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.{vue,js,jsx,ts,tsx}": "eslint --fix"
-  },
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
@@ -17,5 +14,8 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.1",
     "typescript": "^4.7.3"
+  },
+  "lint-staged": {
+    "*.{vue,js,jsx,ts,tsx,json,md}": "eslint --fix"
   }
 }
