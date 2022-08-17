@@ -1,14 +1,11 @@
 # starter-repo
 
-A repo starter by developer-plus.
+Starter template for GitHub repository.
 
 ## Features
 
 - eslint
 - commitlint
-- husky
-- lint-staged
-- lint ci
 
 ## Checklist
 
@@ -20,6 +17,6 @@ When you use this template, try follow the checklist to update your info properl
 
 And, enjoy :)
 
-## LICENSE
+## License
 
-MIT, developer-plus made with 💗.
+[MIT](./LICENSE) License © 2022 [Hongbusi](https://github.com/Hongbusi) 
