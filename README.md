@@ -12,7 +12,6 @@ Starter template for GitHub repository.
 When you use this template, try follow the checklist to update your info properly.
 
 - [ ] Change the author name in `LICENSE`
-- [ ] Update steps in `.github/workflows/ci.yml`
 - [ ] Clean up the README
 
 And, enjoy :)
